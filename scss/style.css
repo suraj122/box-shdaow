@@ -1,0 +1,189 @@
+body {
+  background: #ccc;
+  padding-top: 70px;
+  color: #333;
+  text-align: center; }
+
+h5 {
+  position: relative;
+  top: 30%; }
+
+.example {
+  width: 130px;
+  height: 130px;
+  background: #fff;
+  box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.4);
+  float: left; }
+
+.example1 {
+  width: 130px;
+  height: 130px;
+  background: #fff;
+  float: left;
+  box-shadow: inset 0px 0px 18px 2px rgba(0, 0, 0, 0.4);
+  margin-left: 100px; }
+
+.example2 {
+  width: 130px;
+  height: 130px;
+  background: #FFF;
+  float: left;
+  margin-left: 100px;
+  box-shadow: 0px 8px 6px -4px rgba(0, 0, 0, 0.4); }
+
+img {
+  margin-top: 80px;
+  border: 5px solid #555;
+  background: #444;
+  padding: 5px;
+  outline: 5px solid #666;
+  box-shadow: 0 0 0px 10px #777, 0 0 0 15px #888; }
+
+.box {
+  width: 70%;
+  height: 200px;
+  margin: 60px auto;
+  background: #fff; }
+  .box h3 {
+    position: relative;
+    top: 80px; }
+
+.effect1 {
+  box-shadow: 0 10px 8px -4px #777; }
+
+.effect2 {
+  position: relative; }
+
+.effect2:before, .effect2:after {
+  position: absolute;
+  content: "";
+  width: 50%;
+  max-width: 300px;
+  bottom: 15px;
+  top: 80%;
+  left: 10px;
+  background: #777;
+  z-index: -1;
+  box-shadow: 0 15px 10px #777;
+  transform: rotate(-3deg); }
+
+.effect2:after {
+  right: 10px;
+  left: auto;
+  transform: rotate(3deg); }
+
+.effect3 {
+  position: relative; }
+
+.effect3:before {
+  width: 50%;
+  max-width: 300px;
+  position: absolute;
+  top: 80%;
+  bottom: 15px;
+  left: 10px;
+  content: "";
+  background: #777;
+  box-shadow: 0 15px 10px #777;
+  transform: rotate(-3deg);
+  z-index: -1; }
+
+.effect4 {
+  position: relative; }
+
+.effect4:after {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  width: 50%;
+  max-width: 300px;
+  top: 80%;
+  bottom: 15px;
+  right: 10px;
+  left: auto;
+  background: #777;
+  box-shadow: 0 15px 10px #777;
+  transform: rotate(3deg); }
+
+.effect5 {
+  position: relative; }
+
+.effect5:before, .effect5:after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  width: 50%;
+  max-width: 300px;
+  top: 80%;
+  left: 10px;
+  bottom: 25px;
+  background: #777;
+  box-shadow: 0 35px 20px #777;
+  transform: rotate(-8deg); }
+
+.effect5:after {
+  right: 10px;
+  left: auto;
+  transform: rotate(8deg); }
+
+.effect6 {
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; }
+
+.effect6:before, .effect6:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  z-index: -1;
+  border-radius: 100px / 10px; }
+
+.effect6:after {
+  right: 10px;
+  left: auto;
+  transform: skew(8deg) rotate(3deg); }
+
+.effect7 {
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1); }
+
+.effect7:before, .effect7:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  left: 10px;
+  right: 10px;
+  border-radius: 100px / 10px;
+  z-index: -1; }
+
+.effect7:after {
+  right: 10px;
+  left: auto;
+  transform: rotate(3deg) skew(8deg); }
+
+.effect8 {
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), inset 0 0 40px rgba(0, 0, 0, 0.1); }
+
+.effect8:before, .effect8:after {
+  position: absolute;
+  content: "";
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  border-radius: 100px / 10px; }
+
+.effect8:after {
+  right: 10px;
+  left: auto;
+  transform: rotate(3deg) skew(8deg); }
+
+/*# sourceMappingURL=style.css.map */
